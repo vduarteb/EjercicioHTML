@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Valentina Duarte" />
+    <meta name="description" content="Página web personal" />
+    <title>Página personal</title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a class="active" href="#valentina">¿Quién soy?</a>
+      <a href="#bienvenida">Bienvenida</a>
+      <a href="#biograficos">Datos Biográficos</a>
+      <a href="#academicos">Datos Académicos</a>
+      <a href="#interes">Sitios de Interes</a>
+      <a href="#contacti">Contacto</a>
+    </nav>
+    <header id="valentina">
+      <h1>Valentina Duarte</h1>
+      <img
+        src="imagenes/valentina.jpeg"
+        width="200"
+        height="260"
+        alt="Foto personal"
+      />
+    </header>
+
+    <main>
+      <section id="bienvenida">
+        <h2>¡Bienvenidos a mi página personal!</h2>
+        <p>
+          ¡Hola! Mi nombre es Valentina Duarte. En esta página podrán aprender
+          un poco sobre mí. Podrán conocer mis intereses, mi recorrido académico
+          y otras cosas que pueden ser interesantes.
+        </p>
+      </section>
+      <section id="biograficos">
+        <table>
+          <th colspan="2">
+            DATOS BIOGRÁFICOS
+          </th>
+          <tr>
+            <th>Nombre completo</th>
+            <td>Valentina Duarte Benítez</td>
+          </tr>
+          <tr>
+            <th>Edad</th>
+            <td>20 años</td>
+          </tr>
+          <tr>
+            <th>Fecha de nacimiento</th>
+            <td>25 de agosto de 1999</td>
+          </tr>
+          <tr>
+            <th>Nacionalidad</th>
+            <td>Colombiana</td>
+          </tr>
+          <tr>
+            <th>Lugar de nacimiento</th>
+            <td>Bucaramanga, Colombia</td>
+          </tr>
+          <tr>
+            <th>Lugar de residencia</th>
+            <td>Bogotá, Colombia</td>
+          </tr>
+        </table>
+      </section>
+      <section id="academicos">
+        <h2>Datos Académicos</h2>
+        <ol>
+          <li>
+            Jardín Sonrisas Mágicas
+            <ul>
+              <li>2001-2002</li>
+            </ul>
+          </li>
+
+          <li>
+            Jardín Alegría de Crecer
+            <ul>
+              <li>2002-2003</li>
+            </ul>
+          </li>
+          <li>
+            Colegio Gimnasio Vermont
+            <ul>
+              <li>2003-2017</li>
+              <li>
+                Bachillerato Internacional
+                <ul>
+                  <li>2015-2017</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Univeridad de los Andes- Ingeniería de Sistemas y Computación
+            <ul>
+              <li>
+                2017-Presente
+              </li>
+              <li>
+                Monitora de Desarrollo de SW en Equipo
+                <ul>
+                  <li>Agosto 2019-Diciembre 2019</li>
+                </ul>
+              </li>
+              <li>
+                Monitora de Diseño de producto e Innovación TI
+                <ul>
+                  <li>Enero 2020-Presente</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+      <section id="interes">
+        <h2>Sitios de Interés</h2>
+        <div>
+          <h3>Videos Favoritos</h3>
+          <iframe
+            src="https://www.youtube.com/embed/Zzylc-7PwQ4"
+            title="W3Schools Free Online Web Tutorials"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/zYWj-ly7nR8"
+            title="Philippines"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/0fEI3Jno5dY"
+            title="W3Schools Free Online Web Tutorials"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/AYTm13VdttA"
+            title="W3Schools Free Online Web Tutorials"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div>
+          <h3>Imágenes</h3>
+          <img src="imagenes/luna.jpeg" width="200" height="260" alt="Luna" />
+          <img
+            src="imagenes/charlie.jpeg"
+            width="200"
+            height="260"
+            alt="Charlie"
+          />
+          <img src="imagenes/luna2.jpeg" width="200" height="260" alt="Luna" />
+          <img
+            src="imagenes/charlie2.jpeg"
+            width="200"
+            height="260"
+            alt="Charlie"
+          />
+          <img src="imagenes/luna3.jpeg" width="200" height="260" alt="Luna" />
+          <img
+            src="imagenes/charlie3.jpeg"
+            width="200"
+            height="260"
+            alt="Charlie"
+          />
+        </div>
+        <div>
+          <h3>Enlaces Interesantes</h3>
+          <ul>
+            <li>
+              <a href="https://www.byaniam.com" target="_blank"> Aniam</a>
+            </li>
+            <li>
+              <a href="https://www.danflyingsolo.com" target="_blank">
+                Dan Flying Solo</a
+              >
+            </li>
+            <li>
+              <a href="https://sayyes.com" target="_blank"> Say Yes</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="contacto">
+        <h2>Contactame</h2>
+        <form>
+          <label for="fname">Nombre:</label><br />
+          <input type="text" value="Nombre" /><br />
+          <label for="lname">Correo Electrónico:</label><br />
+          <input type="text" value="Correo" /><br />
+          <label for="lname">Mensaje:</label><br />
+          <textarea rows="10" cols="50"></textarea> <br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+        <h3>Redes Sociales</h3>
+            <a
+              href="https://www.linkedin.com/in/valentina-duarte-benítez-913b861a6"
+              target="_blank">
+            <img src="imagenes/linkedin.png" width="40" height="40" alt="LinkedIn Logo"></a>
+            <a href="https://github.com/vduarteb" target="_blank"> 
+                <img src="imagenes/github.png" width="40" height="40" alt="Github Logo"></a  >
+       
+            <a href="https://www.youtube.com/channel/UCdc7JgenqREfiL8rEDNR_Eg?view_as=subscriber"
+              target="_blank">
+              <img src="imagenes/youtube.png" width="40" height="40" alt="Youtube Logo"></a  >
+        
+            <a href="https://www.instagram.com/valentina0825/" target="_blank">
+                <img src="imagenes/instagram.png" width="40" height="40" alt="Instagram Logo"></a  >
+    
+            <a href="https://www.facebook.com/valentina.duarte.338/" target="_blank">
+                <img src="imagenes/facebook.png" width="40" height="40" alt="Facebook Logo"></a  >
+       
+     <br>
+    <br/>
+    <br>
+    <br/>
+    </footer>
+</html>
+
